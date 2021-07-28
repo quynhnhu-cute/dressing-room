@@ -49,7 +49,7 @@ const getListItemByType = (typeName) => {
                   <img src="${item.imgSrc_jpg}" class="card-img-top" alt="topCloth">
                   <div class="card-body item-content">
                     <h6 class="card-title">${item.name}</h6>
-                    <a href="#" class="btn btn-primary" style="width:150px" onclick="tryHard('${item}')">Thử đồ</a>
+                    <a href="#" class="btn btn-primary" style="width:150px" onclick='tryHard(${JSON.stringify(item)})'>Thử đồ</a>
                   </div>
                 </div>
               </div>
@@ -63,6 +63,7 @@ const getListItemByType = (typeName) => {
 };
 
 const tryHard = (item) => {
+  console.log("here");
   console.log(item);
 
   // ở đây em muốn in ra cả 1 cái item ạ , item lấy về trong axios bao gồm : id, type, name vâng vâng ạ
