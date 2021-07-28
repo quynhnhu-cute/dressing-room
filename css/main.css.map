@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;ACJD,AAAA,SAAS,CAAC;EAER,gBAAgB,EFDJ,IAAI;EEEhB,KAAK,EAAE,GAAG;EACV,YAAY,EAAE,CAAC;EACf,WAAW,EAAE,CAAC;EACd,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAKxB;;AAbD,AAUE,SAVO,CAUP,CAAC,CAAC;EACA,KAAK,EFXI,SAAS;CEYnB;;AAGH,AAAA,SAAS,AAAA,MAAM,CAAA;EACX,gBAAgB,EFhBP,SAAS;CEoBrB;;AALD,AAEI,SAFK,AAAA,MAAM,CAEX,CAAC,CAAA;EACG,KAAK,EFjBC,IAAI;CEkBb;;ACnBL,AAIgB,KAJX,CACD,KAAK,CACD,MAAM,CACF,UAAU,CACN,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CACxB;;ACRjB,AAAA,KAAK,CAAA;EACD,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/helpers/_variables.scss",
+        "../sass/base/_reset.scss",
+        "../sass/components/_tab.scss",
+        "../sass/components/_card.scss",
+        "../sass/pages/_dress.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tab-item {
+  background-color: #fff;
+  width: 14%;
+  margin-right: 0;
+  margin-left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tab-item a {
+  color: #04a8dfbe;
+}
+
+.tab-item:hover {
+  background-color: #04a8dfbe;
+}
+
+.tab-item:hover a {
+  color: #fff;
+}
+
+.well .card .col-3 .item-card .item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.well {
+  height: 750px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+.well{
+    .card{
+        .col-3{
+            .item-card{
+                .item-content {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                }
+              }
+        }
+    }
+}
